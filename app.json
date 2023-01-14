@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "SpenDees",
+    "slug": "SpenDees",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/and.png",
+    "splash": {
+      "image": "./assets/and.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#65BCBF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/and.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    }
+  }
+}
